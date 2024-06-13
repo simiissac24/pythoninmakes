@@ -1,0 +1,185 @@
+/* custom.css */
+
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar styles */
+.nav-item {
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.dropdown-item {
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* Footer styles */
+.my_footer {
+  background-color: #f8f9fa;
+  height: 60px;
+}
+
+.my_footer p {
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+/* Category page styles */
+.my_row_class {
+  padding-top: 15px;
+}
+
+.my_row_class .mx_auto {
+  color: #000;
+  font-size: 12px;
+}
+
+.my_image {
+  width: 100%;
+  height: auto;
+}
+
+.my_title {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.my_image_padding {
+  padding: 5px;
+}
+
+.my_bottom_margin {
+  margin-bottom: 10px;
+}
+
+/* Product cards styles */
+.card {
+  width: 100%; /* Full width of the container */
+  max-width: 300px; /* Maximum width of the card */
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  overflow: hidden; /* Ensures content doesn't overflow */
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  width: 100%; /* Full width of the card */
+  height: 200px; /* Fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  object-position: center; /* Centers the image */
+}
+
+.product-image {
+  width: 100%; /* Full width of the container */
+  height: 250px; /* Set the desired fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  object-position: center; /* Centers the image */
+}
+
+.card-body {
+  padding: 15px;
+  flex-grow: 1; /* Ensures the body takes up remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.card-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Center cards in the container */
+}
+
+/* Product page styles */
+.my_prod_row_class {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.my_prod_row_class .mx_auto {
+  color: #000;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.my_prod_title {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.my_prod_text {
+  padding-right: 20px;
+}
+
+/* Search results styles */
+.my_search_text {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Custom styles */
+.my_custom_table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.my_custom_thead {
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.custom_image {
+  max-width: 100px;
+  height: auto;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.custom_icon {
+  font-size: 20px;
+}
+
+.custom_a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.my_title {
+  letter-spacing: .2rem;
+  margin-bottom: 20px;
+}
+
+.my_custom_button {
+  margin-top: 20px;
+}
